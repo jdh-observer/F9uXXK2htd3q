@@ -5,7 +5,7 @@ jupyter:
     text_representation:
       extension: .md
       format_name: markdown
-      format_version: '1.3'
+      format_version: "1.3"
       jupytext_version: 1.19.1
   kernelspec:
     display_name: Python 3 (ipykernel)
@@ -117,7 +117,7 @@ Diagrams have served as instruments of knowledge construction and exploration ac
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-tryptich-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-tryptich-*", "anchor-figure-tryptich"]
 from IPython.display import Image, display
 
 metadata = {
@@ -141,7 +141,7 @@ Similarly, Klee's cosmological diagram ([Figure 2](#anchor-figure-klee)) maps re
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-klee-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-klee-*", "anchor-figure-klee"]
 from IPython.display import Image, display
 
 metadata = {
@@ -167,7 +167,7 @@ Between religious narratives and scientific images lies another possibility, whe
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-triadic-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-triadic-*","anchor-table-triadic"] -->
 
 | Mode   | Relation to Object               | Example                                            |
 | ------ | -------------------------------- | -------------------------------------------------- |
@@ -183,7 +183,7 @@ Within the iconic mode, Peirce distinguished three subtypes he called hypoicons 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-hypoicons-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-hypoicons-*","anchor-table-hypoicons"] -->
 
 | Subtype  | Represents through   | Example                                     |
 | -------- | -------------------- | ------------------------------------------- |
@@ -216,11 +216,11 @@ Alpha Graphs constitute the foundation of the entire system and correspond to pr
 
 <!-- #region citation-manager={"citations": {"2tysj": []}} editable=true slideshow={"slide_type": ""} -->
 
-Beta Graphs extend Alpha by adding quantification and variables, corresponding to first-order predicate logic. The crucial innovation is the line of identity, a graphical device that represents existential quantification and coreference (<cite id="2tysj"><a href="#zotero%7C8665703%2FSVGQE8AK">(Roberts, 1973, 47)</a></cite>). A line of identity connects elements sharing the same referent, effectively binding variables across the diagram. For instance, a line connecting "man" to a cut containing "wounded" expresses "There exists a man who is not wounded" (∃x(man(x) ∧ ¬wounded(x))) ([Figure 3](#figure-beta-diagram)). Universal quantification emerges from combining existential quantification with negation: placing a line of identity inside nested cuts achieves the effect of "for all." The Beta system's visual treatment of quantification makes scope relations directly visible through the topological structure of the diagram, rendering explicit what remains implicit in algebraic notation.
+Beta Graphs extend Alpha by adding quantification and variables, corresponding to first-order predicate logic. The crucial innovation is the line of identity, a graphical device that represents existential quantification and coreference (<cite id="2tysj"><a href="#zotero%7C8665703%2FSVGQE8AK">(Roberts, 1973, 47)</a></cite>). A line of identity connects elements sharing the same referent, effectively binding variables across the diagram. For instance, a line connecting "man" to a cut containing "wounded" expresses "There exists a man who is not wounded" (∃x(man(x) ∧ ¬wounded(x))) ([Figure 3](#anchor-figure-beta-diagram)). Universal quantification emerges from combining existential quantification with negation: placing a line of identity inside nested cuts achieves the effect of "for all." The Beta system's visual treatment of quantification makes scope relations directly visible through the topological structure of the diagram, rendering explicit what remains implicit in algebraic notation.
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-*","anchor-figure-beta-diagram"]
 from IPython.display import Image, display
 
 metadata = {
@@ -306,7 +306,7 @@ The first step in the pipeline distinguishes manuscript pages containing visual 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-corpus-1-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-corpus-1-*", "anchor-table-corpus-1"] -->
 
 | Class                 | Count | Percentage |
 | --------------------- | ----- | ---------- |
@@ -412,7 +412,7 @@ As illustrated in ([Figure 5](#anchor-figure-distribution)), the distribution of
 %pip install pandas matplotlib seaborn
 ```
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-distribution-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-distribution-*", "anchor-figure-distribution"]
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -493,13 +493,13 @@ plt.show()
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-The temporal distribution of diagrammatic content across Peirce's manuscripts reveals distinct phases in his visual reasoning practice ([Figure](#anchor-figure-temporal)). The earliest period (1860-1864) shows modest diagrammatic activity in Logic manuscripts (5.02%, 14 of 279 pages), though a small Metaphysics sample exhibits high diagram density (74.07%, 20 of 27 pages). The subsequent period (1865-1869) defines Peirce's most productive phase by volume, with 4,095 Logic pages and 2,614 Pragmatism pages; nonetheless diagrammatic production remains relatively low (6.52% and 3.63% respectively). This suggests intensive textual production with selective use of visual elements during his early career development.
+The temporal distribution of diagrammatic content across Peirce's manuscripts reveals distinct phases in his visual reasoning practice ([Figure 6](#anchor-figure-temporal)). The earliest period (1860-1864) shows modest diagrammatic activity in Logic manuscripts (5.02%, 14 of 279 pages), though a small Metaphysics sample exhibits high diagram density (74.07%, 20 of 27 pages). The subsequent period (1865-1869) defines Peirce's most productive phase by volume, with 4,095 Logic pages and 2,614 Pragmatism pages; nonetheless diagrammatic production remains relatively low (6.52% and 3.63% respectively). This suggests intensive textual production with selective use of visual elements during his early career development.
 A relevant shift occurs in 1895-1899, marking the watershed moment in Peirce's diagrammatic practice. Logic manuscripts from this period exhibit 50.6% diagram density (168 of 332 pages), representing a tenfold increase from earlier decades. Mathematics manuscripts show even higher concentration at 92.31% (12 of 13 pages). This period corresponds precisely to Peirce's intensive development of Existential Graphs. The concentration of diagrammatic content during these years also documents the methodological centrality of visual reasoning during the development of this theoretical phase. The 1885-1889 period shows intermediate values (18.91% in Logic), suggesting gradual intensification of diagrammatic methods leading to the 1895-1899 peak.
 The pattern shifts again after 1900. Logic manuscripts from 1900-1904 show reduced diagram density (6.19%, 159 of 2,568 pages) despite substantial manuscript volume, while Pragmatism manuscripts increase slightly to 8.87% (55 of 620 pages). The 1905-1909 period maintains modest levels (12.12% Logic, 6.86% Pragmatism), and the final period 1910-1914 shows further decline in Logic (2.59%, 20 of 773 pages) though Mathematics manuscripts remain diagram-intensive (23.79%, 49 of 206 pages). Given the density of diagrammatic practice from 1895 to 1899, this period offers the most consistent material for a systematic investigation of Peirce's visual reasoning.
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-temporal-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-temporal-*", "anchor-figure-temporal"]
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -592,7 +592,7 @@ We employed a different methodology based on evaluation level. Morphological eva
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-semiotic-evaluation-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-semiotic-evaluation-*", "anchor-table-semiotic-evaluation"] -->
 
 | Interpretive Category | Peirce Category | Semiotic Operation                      | Task                   | Evaluation Method |
 | --------------------- | --------------- | --------------------------------------- | ---------------------- | ----------------- |
@@ -616,7 +616,7 @@ Finally, we devised three different prompts to reflect the aforementioned levels
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-prompts-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-prompts-*", "anchor-table-prompts"] -->
 
 | Level                | Prompt                                                                                                                                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -656,7 +656,7 @@ CLIP + Logistic Regression achieved the best performance across all metrics (([T
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-clip-1-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-clip-1-*", "anchor-table-clip-1"] -->
 
 | Metric | Precision | Recall | F1-Score | Accuracy |
 | ------ | --------- | ------ | -------- | -------- |
@@ -695,7 +695,7 @@ The performance gap between diagram (mAP@0.5: 0.993) and text block (mAP@0.5: 0.
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-yolo-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-yolo-*", "anchor-table-yolo"] -->
 
 | Class      | Precision | Recall | F1-Score | mAP@0.5 | mAP@0.5:0.95 |
 | ---------- | --------- | ------ | -------- | ------- | ------------ |
@@ -714,7 +714,7 @@ A test corpus of 27 Existential Graph diagrams was manually annotated to establi
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-Evaluation results reveal substantial performance variation across models and metrics ([Figure 7](#figure-morphological-evaluation)). Gemini 3 Pro achieved the highest overall accuracy (89.51%), followed closely by Gemini 3 Flash (88.27%). Both Gemini models demonstrated consistent performance across most metrics, achieving perfect accuracy on cuts nesting detection (100%) and strong performance on cuts counting (96.30% and 100.0% respectively). Qwen 2.5 VL 72B achieved moderate overall accuracy (66.67%), with strongest performance on cuts nesting (85.19%) but substantial degradation on lines branching and spots labels (both 51.85%). Claude Sonnet 4.5 achieved 56.17% overall accuracy, with notably weak performance on spots counting (33.33%) and spots labels (37.04%) despite strong cuts nesting recognition (92.59%). Gemma 3 27B achieved the lowest overall accuracy (51.23%), with particularly poor cuts counting (48.15%) and lines counting (33.33%) performance.
+Evaluation results reveal substantial performance variation across models and metrics ([Figure 7](#anchor-figure-morphological-evaluation)). Gemini 3 Pro achieved the highest overall accuracy (89.51%), followed closely by Gemini 3 Flash (88.27%). Both Gemini models demonstrated consistent performance across most metrics, achieving perfect accuracy on cuts nesting detection (100%) and strong performance on cuts counting (96.30% and 100.0% respectively). Qwen 2.5 VL 72B achieved moderate overall accuracy (66.67%), with strongest performance on cuts nesting (85.19%) but substantial degradation on lines branching and spots labels (both 51.85%). Claude Sonnet 4.5 achieved 56.17% overall accuracy, with notably weak performance on spots counting (33.33%) and spots labels (37.04%) despite strong cuts nesting recognition (92.59%). Gemma 3 27B achieved the lowest overall accuracy (51.23%), with particularly poor cuts counting (48.15%) and lines counting (33.33%) performance.
 
 <!-- #endregion -->
 
@@ -728,7 +728,7 @@ Cuts nesting detection proved to be the most robust task, with accuracy ranging 
 
 The performance hierarchy (Gemini models substantially outperforming Claude, Qwen, and Gemma) suggests that architectural differences and training data composition significantly influence morphological visual analysis capacity. Gemini's strong performance across all metrics except lines counting indicates robust general-purpose diagram understanding, while Claude Sonnet 4.5's weak spots performance despite strong cuts recognition suggests uneven visual analysis capabilities. The open-source models (Gemma 3 27B, Qwen 2.5 VL 72B) consistently underperformed proprietary alternatives, with Gemma showing particular difficulty maintaining consistent element counts across diagram complexity levels.
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-morphological-evaluation-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-morphological-evaluation-*", "anchor-figure-morphological-evaluation"]
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -813,7 +813,7 @@ Evaluation results reveal performance patterns consistent with morphological fin
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-indexical-evaluation-*"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-indexical-evaluation-*", "anchor-table-indexical-evaluation"] -->
 
 | Model             | Avg Score | Score 2 (Complete) | Score 1 (Partial) | Score 0 (Incorrect) |
 | ----------------- | --------- | ------------------ | ----------------- | ------------------- |
@@ -840,13 +840,13 @@ Accuracy in describing connections varied by topology. While all models successf
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-The performance hierarchy (Gemini models substantially outperforming Claude, followed by Qwen and Gemma) mirrors morphological results but with amplified differentiation ([Figure 8](#figure-indexical-evaluation)). Converting scores to percentage scale (score 2 = 100%, score 1 = 50%, score 0 = 0%), Gemini 3 Pro achieves 94.4% average performance at relational level compared to 89.5% at morphological level, suggesting spatial relationship description may actually be easier than precise element counting for this model. Conversely, Claude Sonnet 4.5 shows only modest change from 56.2% morphological accuracy to 61.1% relational performance (using the converted scale), while Gemma 3 27B drops from 51.2% to 38.9%. This pattern indicates that models with weaker foundational visual analysis (morphological level) experience compounding errors at relational levels: misidentified elements propagate to incorrect relationship descriptions. OCR-like errors in spot label recognition observed at morphological level directly cause containment description errors at relational level, as models cannot correctly describe which labels are inside which cuts if they misread the labels themselves.
+The performance hierarchy (Gemini models substantially outperforming Claude, followed by Qwen and Gemma) mirrors morphological results but with amplified differentiation ([Figure 8](#anchor-figure-indexical-evaluation)). Converting scores to percentage scale (score 2 = 100%, score 1 = 50%, score 0 = 0%), Gemini 3 Pro achieves 94.4% average performance at relational level compared to 89.5% at morphological level, suggesting spatial relationship description may actually be easier than precise element counting for this model. Conversely, Claude Sonnet 4.5 shows only modest change from 56.2% morphological accuracy to 61.1% relational performance (using the converted scale), while Gemma 3 27B drops from 51.2% to 38.9%. This pattern indicates that models with weaker foundational visual analysis (morphological level) experience compounding errors at relational levels: misidentified elements propagate to incorrect relationship descriptions. OCR-like errors in spot label recognition observed at morphological level directly cause containment description errors at relational level, as models cannot correctly describe which labels are inside which cuts if they misread the labels themselves.
 
 <!-- #endregion -->
 
 The transition from morphological to relational evaluation reveals a significant asymmetry in VLM capabilities. Strong models (Gemini) maintain or improve performance when moving from enumeration to relationship description, suggesting they possess robust internal representations capable of relational reasoning. Conversely, weaker models show marked degradation, indicating that their morphological success likely relies on shallow pattern matching rather than structured visual understanding. This aligns with our theoretical framework: _iconisation_ (recognition) can be achieved through statistical regularities, whereas _referentialisation_ (understanding generative relationships) requires a representational capacity that clearly distinguishes superior model architectures.
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-indexical-evaluation-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-indexical-evaluation-*", "anchor-figure-indexical-evaluation"]
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -923,7 +923,7 @@ The representational level evaluation assessed the models' capacity to produce c
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["table-symbolic-evaluation-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["table-symbolic-evaluation-*", "anchor-table-symbolic-evaluation"]
 import pandas as pd
 from IPython.display import display
 
@@ -941,7 +941,7 @@ display(symbolic_results)
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-Results shows a performance gap and a substantial decline from previous evaluation levels ([Table](#anchor-table-symbolic-evaluation-*)). Gemini 3 Flash led with an average score of 1.500 (75.0% normalized accuracy) and 14 fully correct interpretations. Gemini 3 Pro followed closely (1.417; 70.8%) with 15 correct readings, though fewer partial successes. Claude Sonnet 4.5 dropped significantly to 0.833 (41.7%), managing only 6 correct interpretations against 10 complete failures. Qwen 2.5 VL 72B and Gemma 3 27B exhibited near-total failure, scoring 0.208 (10.4%) and 0.167 (8.3%) respectively. With 21 of 24 predictions incorrect for both, these models proved essentially incapable of deriving logical propositions, despite their reasonable performance on morphological tasks.
+Results shows a performance gap and a substantial decline from previous evaluation levels ([Table 12](#anchor-table-symbolic-evaluation-*)). Gemini 3 Flash led with an average score of 1.500 (75.0% normalized accuracy) and 14 fully correct interpretations. Gemini 3 Pro followed closely (1.417; 70.8%) with 15 correct readings, though fewer partial successes. Claude Sonnet 4.5 dropped significantly to 0.833 (41.7%), managing only 6 correct interpretations against 10 complete failures. Qwen 2.5 VL 72B and Gemma 3 27B exhibited near-total failure, scoring 0.208 (10.4%) and 0.167 (8.3%) respectively. With 21 of 24 predictions incorrect for both, these models proved essentially incapable of deriving logical propositions, despite their reasonable performance on morphological tasks.
 
 <!-- #endregion -->
 
@@ -1078,11 +1078,11 @@ Current VLMs appear unable to execute this sequential procedure. When presented 
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
-The scope errors we documented further illustrate this gap. In the diagram expressing "Some woman is adored by every Catholic" (∃y∀x), two lines of identity are present: one for "woman" extending outside all cuts, one for "Catholic" originating inside the outer cut ([Figure 10](#figure-beta-diagram-2)). Correct interpretation requires independently tracing each line to its outermost point, determining that the woman-line reaches the Sheet of Assertion (zero cuts, existential with wide scope) while the Catholic-line begins at one cut (odd, universal with narrow scope). The models that produced "Every Catholic adores some woman" (∀x∃y) failed not because they misread individual elements but because they did not execute the comparative scope-determination procedure that the endoporeutic method demands.
+The scope errors we documented further illustrate this gap. In the diagram expressing "Some woman is adored by every Catholic" (∃y∀x), two lines of identity are present: one for "woman" extending outside all cuts, one for "Catholic" originating inside the outer cut ([Figure 10](#anchor-figure-beta-diagram-2)). Correct interpretation requires independently tracing each line to its outermost point, determining that the woman-line reaches the Sheet of Assertion (zero cuts, existential with wide scope) while the Catholic-line begins at one cut (odd, universal with narrow scope). The models that produced "Every Catholic adores some woman" (∀x∃y) failed not because they misread individual elements but because they did not execute the comparative scope-determination procedure that the endoporeutic method demands.
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-2-*"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-2-*", "anchor-figure-beta-diagram-2"]
 from IPython.display import Image, display
 
 metadata = {
