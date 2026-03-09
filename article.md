@@ -122,7 +122,7 @@ metadata = {
     }
 }
 
-display(Image("media/triptych.jpg", width=400), metadata=metadata)
+display(Image("media/triptych.jpg"), metadata=metadata)
 ```
 
 <!-- #region citation-manager={"citations": {"imxh3": [], "t5oly": [], "xo0lk": []}} editable=true slideshow={"slide_type": ""} -->
@@ -144,13 +144,13 @@ metadata = {
     }
 }
 
-display(Image("media/klee.jpg", width=400), metadata=metadata)
+display(Image("media/klee.jpg"), metadata=metadata)
 ```
 
 ### Icons That Think
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
-Between religious narratives and scientific images lies another possibility, where diagrams encode operations with schematic rules. Charles Sanders Peirce's theory of signs provides the conceptual foundation for understanding diagrams as reasoning instruments. In Peirce's triadic semiotics, signs represent their objects according to three distinctive modes. Icons represent their objects through resemblance or shared qualities. Indices point to their objects through causal or existential connection, as smoke indicates fire or a weathervane indicates wind direction. Symbols relate to their objects by habit, so that words like "cat" can arbitrarily relate to certain types of creatures. These modes are not mutually exclusive; most relations of signs to objects involve all three aspects to varying degrees ([Table](#table-triadic-*)). It is also important to note that these three sign types are not mutually exclusive categories, but coexisting aspects that appear in varying proportions within any given thing that functioning as a sign. For example, the “Face Throwing a Kiss Emoji” 😘 iconically resembles a human face with pursed lips. The heart serves as a symbol for love/affection, its rotation can be understood to iconically suggest motion, and the right-facing orientation of the lips will, in contexts like text messaging, where the message received would sit on the left side, indicate the addressee as receiver of the kiss. Even dominantly symbolic sign systems like natural languages can have an iconic dimension, as in onomatopoeia, where "buzz" resembles its referent, or indexical force through elements like demonstrative pronouns.
+Between religious narratives and scientific images lies another possibility, where diagrams encode operations with schematic rules. Charles Sanders Peirce's theory of signs provides the conceptual foundation for understanding diagrams as reasoning instruments. In Peirce's triadic semiotics, signs represent their objects according to three distinctive modes. Icons represent their objects through resemblance or shared qualities. Indices point to their objects through causal or existential connection, as smoke indicates fire or a weathervane indicates wind direction. Symbols relate to their objects by habit, so that words like "cat" can arbitrarily relate to certain types of creatures. These modes are not mutually exclusive; most relations of signs to objects involve all three aspects to varying degrees ([Table](#anchor-table-triadic-*)). It is also important to note that these three sign types are not mutually exclusive categories, but coexisting aspects that appear in varying proportions within any given thing that functioning as a sign. For example, the “Face Throwing a Kiss Emoji” 😘 iconically resembles a human face with pursed lips. The heart serves as a symbol for love/affection, its rotation can be understood to iconically suggest motion, and the right-facing orientation of the lips will, in contexts like text messaging, where the message received would sit on the left side, indicate the addressee as receiver of the kiss. Even dominantly symbolic sign systems like natural languages can have an iconic dimension, as in onomatopoeia, where "buzz" resembles its referent, or indexical force through elements like demonstrative pronouns.
 <!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} tags=["table-triadic-*"] -->
@@ -207,7 +207,7 @@ metadata = {
     }
 }
 
-display(Image("media/hou02614c00458_seq15_detail.jpg", width=500), metadata=metadata)
+display(Image("media/hou02614c00458_seq15_detail.jpg"), metadata=metadata)
 ```
 
 <!-- #region citation-manager={"citations": {"2tysj": []}} -->
@@ -318,7 +318,7 @@ metadata = {
     }
 }
 
-display(Image("media/hou02614c00458_seq625.jpg", width=600), metadata=metadata)
+display(Image("media/hou02614c00458_seq625.jpg"), metadata=metadata)
 ```
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
