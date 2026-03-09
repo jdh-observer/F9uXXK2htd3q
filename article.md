@@ -129,7 +129,7 @@ display(Image("media/triptych.jpg", width=400), metadata=metadata)
 Similarly, Klee's cosmological diagram ([Figure](#figure-klee-*)) maps relations between visible and invisible domains through spatial arrangement, encoding philosophical intuitions in visual form without the rigor of traditional scientific demonstrations. At the other end, scientific imaging presents similar interpretive challenges, though emerging from different epistemological practices. We can define *iconisation* as the stabilization process that enables form recognition, while *referentialisation* is the process of presentification and localisation within a presence field. For instance, as (<cite id="imxh3"><a href="#zotero%7C8665703%2FH2XHRZTU">(Dondero &#38; Fontanille, 2012)</a></cite>) have shown, parents often struggled to recognize their child in older ultrasounds technologies because pattern recognition (iconic stability) does not automatically match what is actually present through the screen of the ultrasound device (referential value). However, extending the previous example, failing to recognise a tumor on screen does not mean it is absent from the image. Usually, scientific images resolve this by processing data through two steps: one captures raw information, while the other creates a readable visual code. This separation becomes crucial for diagrams that encode logic operations through spatial arrangements or visual operators. Scientific visualization allows researchers to manipulate and combine representations to generate new knowledge (<cite id="t5oly"><a href="#zotero%7C8665703%2FWHMSYHGX">(Latour, 1990)</a></cite>). Astrophysical sketches show how visuals unify different theories, bridging abstract levels by layering elements (<cite id="xo0lk"><a href="#zotero%7C8665703%2FXZLKHUSD">(Bailer-Jones, 2002)</a></cite>). From radio maps to chemical formulas, scientific diagrams act as tools that shape knowledge. A semiotic approach is valuable here because it focuses on how diagrams function. It examines how spatial arrangements convey meaning and enable reasoning. A productive framework places diagrams at the intersection of representation (resemblance of relations) and manipulation (experimentation with relations), providing tools to understand how visual reasoning works.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-klee-*"]
 from IPython.display import Image, display
 
 metadata = {
@@ -192,7 +192,7 @@ Alpha Graphs constitute the foundation of the entire system and correspond to pr
 Beta Graphs extend Alpha by adding quantification and variables, corresponding to first-order predicate logic. The crucial innovation is the line of identity, a graphical device that represents existential quantification and coreference (<cite id="2tysj"><a href="#zotero%7C8665703%2FSVGQE8AK">(Roberts, 1973, 47)</a></cite>). A line of identity connects elements sharing the same referent, effectively binding variables across the diagram. For instance, a line connecting "man" to a cut containing "wounded" expresses "There exists a man who is not wounded" (∃x(man(x) ∧ ¬wounded(x))) ([Figure](#figure-beta-diagram-*)). Universal quantification emerges from combining existential quantification with negation: placing a line of identity inside nested cuts achieves the effect of "for all." The Beta system's visual treatment of quantification makes scope relations directly visible through the topological structure of the diagram, rendering explicit what remains implicit in algebraic notation.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""}
+```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-*"]
 from IPython.display import Image, display
 
 metadata = {
@@ -332,7 +332,9 @@ YOLOv8m was fine-tuned from COCO-pretrained weights for 50 epochs (batch size 16
 | Validation | 111 | 687 | 496 |
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 ### Semantic Annotation Workflow
+<!-- #endregion -->
 
 <!-- #region citation-manager={"citations": {"mcpj5": []}} -->
 Detection outputs are transformed into a International Image Interoperability Framework (IIIF) annotation using the Web Annotation Data Model (WADM). Each detected bounding box generates an annotation instance linking a specific canvas region (target) to a semantic class label (body). Coordinates are expressed using the xywh fragment selector specifying pixel offsets and dimensions relative to the IIIF Canvas coordinate system, enabling precise anchoring of detected elements within full-resolution manuscript images.
@@ -346,7 +348,7 @@ Annotations are then serialised in JSON-LD format and converted to RDF triples, 
 As illustrated in ([Figure](#figure-distribution-*)), the distribution of diagrams varies significantly across categories. Logic manuscripts contain the highest absolute volume of diagrammatic material (1,116 pages, or 10.4% of the category), followed by Pragmatism (5%). While Mathematics and Metaphysics exhibit higher relative densities (22.7% and 19.3% respectively), their total page counts are considerably smaller. The high density in Miscellanea (75.4%) likely reflects an archival artifact rather than a distinct generic trait, while categories such as Physics and History contain virtually no diagrams. Consequently, the Logic manuscripts offer the most robust dataset for analysis, combining substantial volume with consistent diagrammatic practice.
 <!-- #endregion -->
 
-```python
+```python editable=true slideshow={"slide_type": ""}
 %pip install pandas matplotlib seaborn
 ```
 
@@ -1021,7 +1023,7 @@ Future work could extend this framework in several directions. Comparative evalu
 
 ## Bibliography
 
-
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 <!-- BIBLIOGRAPHY START -->
 <div class="csl-bib-body">
   <div class="csl-entry"><i id="zotero|8665703/LA3K9MAK"></i>Aouinti, F., Eyharabide, V., Fresquet, X., &#38; Billiet, F. (2022). Illumination Detection in IIIF Medieval Manuscripts Using Deep Learning. <i>Digital Medievalist</i>, <i>15</i>(1), 1–18. <a href="https://doi.org/10.16995/dm.8073">https://doi.org/10.16995/dm.8073</a></div>
@@ -1064,3 +1066,4 @@ Future work could extend this framework in several directions. Comparative evalu
   <div class="csl-entry"><i id="zotero|8665703/AUYQ24AE"></i>Zellweger, S. (1991). Peirce, iconicity, and the geometry of logic. In M. Anderson &#38; F. Merrell (Eds.), <i>On Semiotic Modeling</i> (pp. 483–508). DE GRUYTER. <a href="https://doi.org/10.1515/9783110849875.483">https://doi.org/10.1515/9783110849875.483</a></div>
 </div>
 <!-- BIBLIOGRAPHY END -->
+<!-- #endregion -->
