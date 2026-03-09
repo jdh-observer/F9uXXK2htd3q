@@ -1,0 +1,117 @@
+{
+  "diagrams": [
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq13_0",
+      "symbolic_reading": "Some man is not a wounded man."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq13_1",
+      "symbolic_reading": "Some man is not a wounded man."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_0",
+      "symbolic_reading": "There is something which if it is wounded is a disgraced man."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_1",
+      "symbolic_reading": "Some man is disgraced if he is wounded."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_12",
+      "symbolic_reading": "Do not consider."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_14",
+      "symbolic_reading": "Do not consider."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_3",
+      "symbolic_reading": "There exists something that is not wounded, or is both a man and disgraced."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq15_8",
+      "symbolic_reading": "There exists a man who is not both wounded and disgraced."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq617_0",
+      "symbolic_reading": "Any American man there may be respects himself."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq617_1",
+      "symbolic_reading": "Any man (that may exist) respects any American that may exist."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq617_2",
+      "symbolic_reading": "Some man is not wounded."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq617_4",
+      "symbolic_reading": "There is a man, and nothing is wounded."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_0",
+      "symbolic_reading": "No man is wounded."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_1",
+      "symbolic_reading": "Some woman is adored by every Catholic who adores some woman."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_2",
+      "symbolic_reading": "Some woman is adored by every Catholic."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_3",
+      "symbolic_reading": "Some man is not a wounded man."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_4",
+      "symbolic_reading": "Do not consider."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq621_5",
+      "symbolic_reading": "Some woman is adored by every Catholic."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_0",
+      "symbolic_reading": "Every man is an animal. Every man is rational."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_1",
+      "symbolic_reading": "Some man fears and hates every snake."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_2",
+      "symbolic_reading": "Some man fears every snake and hates every snake. Another reading could be: There is a man who fears every snake₁ and hates every snake₂."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_3",
+      "symbolic_reading": "Every man is rational and animal."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_4",
+      "symbolic_reading": "There is a man who fears and hates every snake"
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_5",
+      "symbolic_reading": "Every man is rational and animal."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_6",
+      "symbolic_reading": "Every man is rational and animal."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_7",
+      "symbolic_reading": "Somebody is not wounded."
+    },
+    {
+      "diagram_id": "hou02614c00458_D._Logic__hou02614c00458__seq625_9",
+      "symbolic_reading": "Somebody is not wounded."
+    }
+  ],
+  "metadata": {
+    "total_diagrams": 27,
+    "source": "Manual annotations for symbolic level evaluation",
+    "format_version": "1.0"
+  }
+}

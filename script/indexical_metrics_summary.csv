@@ -1,0 +1,6 @@
+model,avg_score,score_2_count,score_1_count,score_0_count,score_2_pct,score_1_pct,score_0_pct
+Gemini 3 Pro,1.89,24,3,0,88.9,11.1,0.0
+Gemini 3 Flash,1.85,23,4,0,85.2,14.8,0.0
+Claude Sonnet 4.5,1.22,9,15,3,33.3,55.6,11.1
+Qwen 2.5 VL 72B,0.85,3,17,7,11.1,63.0,25.9
+Gemma 3 27B,0.78,0,21,6,0.0,77.8,22.2
