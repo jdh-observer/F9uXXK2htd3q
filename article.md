@@ -5,7 +5,7 @@ jupyter:
     text_representation:
       extension: .md
       format_name: markdown
-      format_version: "1.3"
+      format_version: '1.3'
       jupytext_version: 1.19.1
   kernelspec:
     display_name: Python 3 (ipykernel)
@@ -167,7 +167,7 @@ Between religious narratives and scientific images lies another possibility, whe
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-triadic-*","anchor-table-triadic"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-triadic-*", "anchor-table-triadic"] -->
 
 | Mode   | Relation to Object               | Example                                            |
 | ------ | -------------------------------- | -------------------------------------------------- |
@@ -183,7 +183,7 @@ Within the iconic mode, Peirce distinguished three subtypes he called hypoicons 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-hypoicons-*","anchor-table-hypoicons"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["table-hypoicons-*", "anchor-table-hypoicons"] -->
 
 | Subtype  | Represents through   | Example                                     |
 | -------- | -------------------- | ------------------------------------------- |
@@ -220,7 +220,7 @@ Beta Graphs extend Alpha by adding quantification and variables, corresponding t
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-*","anchor-figure-beta-diagram"]
+```python editable=true slideshow={"slide_type": ""} tags=["figure-beta-diagram-*", "anchor-figure-beta-diagram"]
 from IPython.display import Image, display
 
 metadata = {
