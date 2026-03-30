@@ -13,33 +13,42 @@ jupyter:
     name: python3
 ---
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["title"] -->
 
 # Moving Pictures of Thought: Evaluating Vision-Language Models on Peirce's Existential Graphs
 
 <!-- #endregion -->
 
+<!-- #region tags=["contributor"] -->
 ### Carlo Teo Pedretti [![orcid](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-4115-0078)
-
 University Sapienza of Rome
+<!-- #endregion -->
 
+<!-- #region tags=["contributor"] -->
 ### Sebastian Feil [![orcid](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-8714-3837)
-
 RWTH Aachen University
+<!-- #endregion -->
 
+<!-- #region tags=["contributor"] -->
 ### Davide Picca [![orcid](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-2014-0855)
-
 University of Lausanne
+<!-- #endregion -->
 
+<!-- #region tags=["contributor"] -->
 ### Dario Rodighiero [![orcid](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-1405-7062)
 
 University of Groningen
+<!-- #endregion -->
 
+<!-- #region tags=["copyright"] -->
 [![cc-by](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 ©<AUTHOR or ORGANIZATION / FUNDER>. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY](https://creativecommons.org/licenses/by/4.0/)
+<!-- #endregion -->
 
+<!-- #region tags=["copyright"] -->
 [![cc-by-nc-nd](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 ©<AUTHOR or ORGANIZATION / FUNDER>. Published by De Gruyter in cooperation with the University of Luxembourg Centre for Contemporary and Digital History. This is an Open Access article distributed under the terms of the [Creative Commons Attribution License CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+<!-- #endregion -->
 
 ```python editable=true slideshow={"slide_type": ""} tags=["cover"]
 from IPython.display import Image, display
@@ -65,13 +74,19 @@ An earlier version of this work was presented as a short paper in (<cite id="wfq
 
 <!-- #endregion -->
 
+<!-- #region tags=["keywords"] -->
 Visual Language Models, Diagrams, IIIF, Semantic Web, Semiotics
+<!-- #endregion -->
 
+<!-- #region tags=["abstract"] -->
 Diagrams are crucial artifacts in many disciplines, demonstrating the close connection between visual representation and scholarly reasoning. However, their iconic form poses obstacles to visual studies, intermedial analysis, and text-based digital workflows. Charles S. Peirce consistently advocated the use of diagrams as essential tools for reasoning, calling his Existential Graphs "moving pictures of thought." His manuscripts, combining textual content with complex logical notation, provide a challenging case for studying documents involving heterogeneous materials.
 In this study, we investigate whether Vision-Language Models can effectively identify and interpret such hybrid pages. We propose a computational pipeline that processes manuscript pages from Peirce's archive at Harvard's Houghton Library, combining layout segmentation, IIIF-compliant annotation, and VLM-based interpretation. To evaluate interpretation capabilities, we develop a tripartite semiotic evaluation framework grounded in Peirce's own categories: morphological (element enumeration), relational (spatial relationships), and representational (logical reading).
 Our results reveal a gap between visual recognition and logical reasoning. While models perform competently at recognizing visual elements and parsing spatial relations, symbolic interpretation fails consistently, with systematic errors in quantifier scope, negation placement, and conditional structures. We use these findings to support the theoretical distinction between iconization (pattern recognition) and referentialisation (rule-governed interpretation). We conclude by discussing implications for AI-assisted historical research and proposing guidelines for human-machine collaboration in manuscript analysis.
+<!-- #endregion -->
 
+<!-- #region tags=["keywords"] -->
 ## Introduction
+<!-- #endregion -->
 
 <!-- #region citation-manager={"citations": {"2dptf": [], "5m66e": [], "a90xg": [], "esp8a": [], "tmfkf": [], "tmqkg": [], "w2x0i": []}} -->
 
@@ -167,7 +182,7 @@ Between religious narratives and scientific images lies another possibility, whe
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-triadic-*", "anchor-table-triadic"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-triadic-*", "anchor-table-triadic"] -->
 
 | Mode   | Relation to Object               | Example                                            |
 | ------ | -------------------------------- | -------------------------------------------------- |
@@ -183,7 +198,7 @@ Within the iconic mode, Peirce distinguished three subtypes he called hypoicons 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-hypoicons-*", "anchor-table-hypoicons"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-hypoicons-*", "anchor-table-hypoicons"] -->
 
 | Subtype  | Represents through   | Example                                     |
 | -------- | -------------------- | ------------------------------------------- |
@@ -306,7 +321,7 @@ The first step in the pipeline distinguishes manuscript pages containing visual 
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-corpus-1-*", "anchor-table-corpus-1"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-1-*", "anchor-table-corpus-1"] -->
 
 | Class                 | Count | Percentage |
 | --------------------- | ----- | ---------- |
@@ -338,7 +353,7 @@ Among the 443 annotated pages, 207 contain visual annotations (totaling 1,139 bo
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-corpus-2-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-2-*"] -->
 
 | Class      | Images | Annotations | Avg per Image |
 | ---------- | ------ | ----------- | ------------- |
@@ -377,7 +392,7 @@ YOLOv8m was fine-tuned from COCO-pretrained weights for 50 epochs (batch size 16
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-corpus-3-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-3-*"] -->
 
 | Split      | Images | Diagram Annotations | Text Block Annotations |
 | ---------- | ------ | ------------------- | ---------------------- |
@@ -592,7 +607,7 @@ We employed a different methodology based on evaluation level. Morphological eva
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-semiotic-evaluation-*", "anchor-table-semiotic-evaluation"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-semiotic-evaluation-*", "anchor-table-semiotic-evaluation"] -->
 
 | Interpretive Category | Peirce Category | Semiotic Operation                      | Task                   | Evaluation Method |
 | --------------------- | --------------- | --------------------------------------- | ---------------------- | ----------------- |
@@ -616,7 +631,7 @@ Finally, we devised three different prompts to reflect the aforementioned levels
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-prompts-*", "anchor-table-prompts"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-prompts-*", "anchor-table-prompts"] -->
 
 | Level                | Prompt                                                                                                                                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -644,7 +659,7 @@ CLIP + Logistic Regression achieved the best performance across all metrics (([T
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-clip-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-clip-*"] -->
 
 | Feature | Classifier          | Precision | Recall | F1-Score | Accuracy |
 | ------- | ------------------- | --------- | ------ | -------- | -------- |
@@ -656,7 +671,7 @@ CLIP + Logistic Regression achieved the best performance across all metrics (([T
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-clip-1-*", "anchor-table-clip-1"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-clip-1-*", "anchor-table-clip-1"] -->
 
 | Metric | Precision | Recall | F1-Score | Accuracy |
 | ------ | --------- | ------ | -------- | -------- |
@@ -695,7 +710,7 @@ The performance gap between diagram (mAP@0.5: 0.993) and text block (mAP@0.5: 0.
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-yolo-*", "anchor-table-yolo"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-yolo-*", "anchor-table-yolo"] -->
 
 | Class      | Precision | Recall | F1-Score | mAP@0.5 | mAP@0.5:0.95 |
 | ---------- | --------- | ------ | -------- | ------- | ------------ |
@@ -813,7 +828,7 @@ Evaluation results reveal performance patterns consistent with morphological fin
 
 <!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-indexical-evaluation-*", "anchor-table-indexical-evaluation"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-indexical-evaluation-*", "anchor-table-indexical-evaluation"] -->
 
 | Model             | Avg Score | Score 2 (Complete) | Score 1 (Partial) | Score 0 (Incorrect) |
 | ----------------- | --------- | ------------------ | ----------------- | ------------------- |
@@ -923,7 +938,7 @@ The representational level evaluation assessed the models' capacity to produce c
 
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-symbolic-evaluation-*", "anchor-table-symbolic-evaluation"]
+```python editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-symbolic-evaluation-*", "anchor-table-symbolic-evaluation"]
 import pandas as pd
 from IPython.display import display
 
@@ -1031,7 +1046,7 @@ The analysis identified four main types of systematic errors (<cite id="bor1"><a
 4.  **Conditional:** Models completely failed to recognize the "scroll" pattern (a cut inside another cut), which represents "if... then...". Instead of seeing a conditional statement, they interpreted these structures as simple conjunctions or negations.
 <!-- #endregion -->
 
-```python editable=true slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} tags=["table-ground-truth-*"]
+```python editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-ground-truth-*"]
 import pandas as pd
 from IPython.display import display
 
