@@ -182,7 +182,7 @@ Between religious narratives and scientific images lies another possibility, whe
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-triadic-*", "anchor-table-triadic"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Peirce's three modes of representation: icon, index and symbol."]}} slideshow={"slide_type": ""} tags=["table-triadic-*", "anchor-table-triadic"] -->
 
 | Mode   | Relation to Object               | Example                                            |
 | ------ | -------------------------------- | -------------------------------------------------- |
@@ -198,7 +198,7 @@ Within the iconic mode, Peirce distinguished three subtypes he called hypoicons 
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-hypoicons-*", "anchor-table-hypoicons"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["The three subtypes of icon (hypoicons) according to Peirce (CP 2.276-277)."]}} slideshow={"slide_type": ""} tags=["table-hypoicons-*", "anchor-table-hypoicons"] -->
 
 | Subtype  | Represents through   | Example                                     |
 | -------- | -------------------- | ------------------------------------------- |
@@ -321,7 +321,7 @@ The first step in the pipeline distinguishes manuscript pages containing visual 
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-1-*", "anchor-table-corpus-1"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Class distribution of the page classification dataset (1,317 manually annotated pages)."]}} slideshow={"slide_type": ""} tags=["table-corpus-1-*", "anchor-table-corpus-1"] -->
 
 | Class                 | Count | Percentage |
 | --------------------- | ----- | ---------- |
@@ -353,7 +353,7 @@ Among the 443 annotated pages, 207 contain visual annotations (totaling 1,139 bo
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-2-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Distribution of layout annotations by class (diagram and text block)."]}} slideshow={"slide_type": ""} tags=["table-corpus-2-*"] -->
 
 | Class      | Images | Annotations | Avg per Image |
 | ---------- | ------ | ----------- | ------------- |
@@ -392,7 +392,7 @@ YOLOv8m was fine-tuned from COCO-pretrained weights for 50 epochs (batch size 16
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-corpus-3-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Training and validation split of the layout segmentation dataset."]}} slideshow={"slide_type": ""} tags=["table-corpus-3-*"] -->
 
 | Split      | Images | Diagram Annotations | Text Block Annotations |
 | ---------- | ------ | ------------------- | ---------------------- |
@@ -607,7 +607,7 @@ We employed a different methodology based on evaluation level. Morphological eva
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-semiotic-evaluation-*", "anchor-table-semiotic-evaluation"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Semiotic evaluation framework: interpretive levels, Peircean categories, tasks and evaluation methods."]}} slideshow={"slide_type": ""} tags=["table-semiotic-evaluation-*", "anchor-table-semiotic-evaluation"] -->
 
 | Interpretive Category | Peirce Category | Semiotic Operation                      | Task                   | Evaluation Method |
 | --------------------- | --------------- | --------------------------------------- | ---------------------- | ----------------- |
@@ -631,7 +631,7 @@ Finally, we devised three different prompts to reflect the aforementioned levels
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-prompts-*", "anchor-table-prompts"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Prompts used for the morphological, relational and representational levels."]}} slideshow={"slide_type": ""} tags=["table-prompts-*", "anchor-table-prompts"] -->
 
 | Level                | Prompt                                                                                                                                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -659,7 +659,7 @@ CLIP + Logistic Regression achieved the best performance across all metrics (([T
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-clip-*"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Page classification performance by feature extractor and classifier."]}} slideshow={"slide_type": ""} tags=["table-clip-*"] -->
 
 | Feature | Classifier          | Precision | Recall | F1-Score | Accuracy |
 | ------- | ------------------- | --------- | ------ | -------- | -------- |
@@ -671,7 +671,7 @@ CLIP + Logistic Regression achieved the best performance across all metrics (([T
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-clip-1-*", "anchor-table-clip-1"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Cross-validation results for CLIP + Logistic Regression."]}} slideshow={"slide_type": ""} tags=["table-clip-1-*", "anchor-table-clip-1"] -->
 
 | Metric | Precision | Recall | F1-Score | Accuracy |
 | ------ | --------- | ------ | -------- | -------- |
@@ -710,7 +710,7 @@ The performance gap between diagram (mAP@0.5: 0.993) and text block (mAP@0.5: 0.
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-yolo-*", "anchor-table-yolo"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Layout segmentation performance of YOLOv8m by class."]}} slideshow={"slide_type": ""} tags=["table-yolo-*", "anchor-table-yolo"] -->
 
 | Class      | Precision | Recall | F1-Score | mAP@0.5 | mAP@0.5:0.95 |
 | ---------- | --------- | ------ | -------- | ------- | ------------ |
@@ -828,7 +828,7 @@ Evaluation results reveal performance patterns consistent with morphological fin
 
 <!-- #endregion -->
 
-<!-- #region editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-indexical-evaluation-*", "anchor-table-indexical-evaluation"] -->
+<!-- #region editable=true jdh={"module": "object", "object": {"source": ["Relational evaluation: average score and score distribution by model (27 diagrams)."]}} slideshow={"slide_type": ""} tags=["table-indexical-evaluation-*", "anchor-table-indexical-evaluation"] -->
 
 | Model             | Avg Score | Score 2 (Complete) | Score 1 (Partial) | Score 0 (Incorrect) |
 | ----------------- | --------- | ------------------ | ----------------- | ------------------- |
@@ -938,7 +938,7 @@ The representational level evaluation assessed the models' capacity to produce c
 
 <!-- #endregion -->
 
-```python editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-symbolic-evaluation-*", "anchor-table-symbolic-evaluation"]
+```python editable=true jdh={"module": "object", "object": {"source": ["Representational evaluation: average score and score distribution by model (24 diagrams)."]}} slideshow={"slide_type": ""} tags=["table-symbolic-evaluation-*", "anchor-table-symbolic-evaluation"]
 import pandas as pd
 from IPython.display import display
 
@@ -1046,7 +1046,7 @@ The analysis identified four main types of systematic errors (<cite id="bor1"><a
 4.  **Conditional:** Models completely failed to recognize the "scroll" pattern (a cut inside another cut), which represents "if... then...". Instead of seeing a conditional statement, they interpreted these structures as simple conjunctions or negations.
 <!-- #endregion -->
 
-```python editable=true jdh={"module": "object", "object": {"source": ["LABEL TO ADD"]}} slideshow={"slide_type": ""} tags=["table-ground-truth-*"]
+```python editable=true jdh={"module": "object", "object": {"source": ["Selected diagrams ranked by difficulty, with ground-truth reading and average score across models."]}} slideshow={"slide_type": ""} tags=["table-ground-truth-*"]
 import pandas as pd
 from IPython.display import display
 
