@@ -88,7 +88,7 @@ Our results reveal a gap between visual recognition and logical reasoning. While
 ## Introduction
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"2dptf": [{"id": "8665703/N7DJDWUA", "source": "zotero"}], "5m66e": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}], "a90xg": [{"id": "8665703/YQYQTRUY", "source": "zotero"}], "esp8a": [{"id": "8665703/WHMSYHGX", "source": "zotero"}], "tmfkf": [{"id": "8665703/LT84I8VT", "source": "zotero"}], "tmqkg": [{"id": "8665703/QA5B8DTV", "source": "zotero"}], "w2x0i": [{"id": "8665703/NNUL5MJR", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"2dptf": [{"id": "8665703/N7DJDWUA", "source": "zotero"}], "5m66e": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}], "a90xg": [{"id": "8665703/YQYQTRUY", "source": "zotero"}], "esp8a": [{"id": "8665703/WHMSYHGX", "source": "zotero"}], "tmfkf": [{"id": "8665703/LT84I8VT", "source": "zotero"}], "tmqkg": [{"id": "8665703/QA5B8DTV", "source": "zotero"}], "w2x0i": [{"id": "8665703/NNUL5MJR", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 Diagrams play a central role in many forms of reasoning, from mathematics to philosophy and religious art and have long served as fundamental tools for visual reasoning across scientific disciplines (<cite id="tmfkf"><a href="#zotero%7C8665703%2FLT84I8VT">(Feil 2024)</a></cite>, <cite id="tmqkg"><a href="#zotero%7C8665703%2FQA5B8DTV">(Hamburger 2019)</a></cite>, <cite id="esp8a"><a href="#zotero%7C8665703%2FWHMSYHGX">(Latour 1990)</a></cite>, <cite id="a90xg"><a href="#zotero%7C8665703%2FYQYQTRUY">(Rodighiero et al. 2023)</a></cite>). They function as active instruments for discovery, enabling forms of knowledge production distinct from purely symbolic expression. Recent advances in computer vision and multimodal learning have opened new opportunities to engage computationally with historical visual materials. Machine learning techniques have shown considerable success in art historical contexts, from iconographic classification (<cite id="5m66e"><a href="#zotero%7C8665703%2FZ3KJLP7C">(Cetinic 2021)</a></cite>) to visual link retrieval (<cite id="w2x0i"><a href="#zotero%7C8665703%2FNNUL5MJR">(Garcia and Vogiatzis 2019)</a></cite>), and in addressing technical challenges like handwritten text recognition in complex documents (<cite id="2dptf"><a href="#zotero%7C8665703%2FN7DJDWUA">(Fleischhacker, Kern, and Göderle 2025)</a></cite>). However, the specific problem of automated interpretation of diagrams that encode logical and relational structures has received comparatively limited attention.
 
@@ -263,27 +263,27 @@ This framework presents a challenge for computational hermeneutics. If reasoning
 
 ### Vision-Language Models and Visual Comprehension: Two Analytical Axes
 
-<!-- #region citation-manager={"citations": {"djueh": [], "htycw": [], "ms0zd": []}} -->
+<!-- #region citation-manager={"citations": {"djueh": [{"id": "8665703/3EUQWJ9", "source": "zotero"}], "htycw": [{"id": "8665703/NNUL5MJR", "source": "zotero"}], "ms0zd": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}]}} -->
 
 The integration of computer vision and language models has opened new possibilities for automated image interpretation. Vision-Language Models demonstrate competence in describing visual content, generating captions, and answering questions about images. Applications in cultural heritage contexts have shown promising results for tasks like iconographic classification and visual link retrieval (<cite id="ms0zd"><a href="#zotero%7C8665703%2FZ3KJLP7C">(Cetinic, 2021)</a></cite>, <cite id="htycw"><a href="#zotero%7C8665703%2FNNUL5MJR">(Garcia &#38; Vogiatzis, 2019)</a></cite>). These successes suggest potential for extracting structured knowledge from complex visual materials.
 However, recent work reveals systematic limitations in how VLMs process visual information. While multimodal models can identify surface-level elements, they struggle to understand logical or spatial relationships among those elements (<cite id="djueh"><a href="#zotero%7C8665703%2F3EUQWJ9V">(Hou et al., 2024)</a></cite>). Evaluation studies show that VLMs tend to rely on background knowledge instead of analyzing the internal structure of images. In particular, when confronted with diagrams in scientific papers, models often recognize individual components (circles, lines, text) without grasping how those components relate to form meaningful structures.
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"vbd3i": []}} -->
+<!-- #region citation-manager={"citations": {"vbd3i": [{"id": "8665703/WCRB65J9", "source": "zotero"}]}} -->
 
 Moreover, VLMs frequently hallucinate relationships or rely on interpretations drawn from training data. Chain-of-regions approaches attempt to address this by decomposing diagrams into meaningful areas before interpretation, improving spatial reasoning capabilities (<cite id="vbd3i"><a href="#zotero%7C8665703%2FWCRB65J9">(Kamoi et al., 2024)</a></cite>). Similarly, structured prompting strategies have shown some success in guiding models toward more accurate diagram interpretation, particularly when combined with modular reasoning pipelines. Nevertheless, performance remains inconsistent across different diagram types and complexity levels.
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"088u9": [], "cmy1p": [], "cmy1z": []}} -->
+<!-- #region citation-manager={"citations": {"088u9": [{"id": "8665703/8NFDSZDB", "source": "zotero"}], "cmy1p": [{"id": "8665703/H2XHRZTU", "source": "zotero"}], "cmy1z": [{"id": "8665703/H2XHRZTU", "source": "zotero"}]}} -->
 
 Understanding scientific images depends on knowledge of the practices and technical processes that produce them (<cite id="cmy1p"><a href="#zotero%7C8665703%2FH2XHRZTU">(Dondero &#38; Fontanille, 2012)</a></cite>). In the ultrasound image, what appears on the screen is the result of a complex sequence of transformations. First, a transducer emits sound waves that penetrate the body. Then, different tissues reflect these waves back with varying intensity. The returning signals are captured, converted into electrical impulses, and finally rendered as a visual pattern of light and shadow. Each step in this chain shapes what becomes visible and what remains hidden. An observer who does not grasp this sequence of exploration cannot properly interpret what the image shows, because there is no direct resemblance between the visual output and the object it represents.
 This sequence makes explicit that "seeing" a scientific image involves calibrating one's interpretive stance. We can identify different levels at which such calibration operates. Distal adjustment concerns scale and distance. An aerial photograph taken from sufficient altitude can render a familiar bridge unrecognisable, not because information is missing but because the viewer cannot map the visual pattern onto prior knowledge of what bridges look like from ground level. Structural adjustment operates at a deeper level: it requires understanding the instrumental apparatus itself, the way a particular imaging technology transforms its object into visual form. Without these calibrations, images remain uninterpretable despite being visually accessible (<cite id="cmy1z"><a href="#zotero%7C8665703%2FH2XHRZTU">(Dondero &#38; Fontanille, 2012)</a></cite>). This dependency becomes especially acute when images serve as experimental supports. Scientific images function as sites for manipulation, decomposition, and recomposition. They are instruments for testing different data configurations and assessing their stability. Comprehension emerges through active engagement with visual structures. This operational character aligns directly with diagrammatic reasoning: diagrams depend on experimentation and manipulation according to transformation rules to yield inferential knowledge (Peirce CP 4.571; <cite id="088u9"><a href="#zotero%7C8665703%2F8NFDSZDB">(Stjernfelt, 2007)</a></cite>). From the understanding of a diagram follows being able to perform operations on it.
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"cny1p": []}} -->
+<!-- #region citation-manager={"citations": {"cny1p": [{"id": "8665703/H2XHRZTU", "source": "zotero"}]}} -->
 
 Drawing on these theoretical premises and on existing literature on visual semiotics, we employ two analytical axes for describing and evaluating visual comprehension (<cite id="cny1p"><a href="#zotero%7C8665703%2FH2XHRZTU">(Dondero &#38; Fontanille, 2012)</a></cite>):
 
@@ -297,13 +297,13 @@ Existential Graphs were selected as case study for two reasons: Peirce's manuscr
 
 ### Corpus Description
 
-<!-- #region citation-manager={"citations": {"o0rmy": []}} -->
+<!-- #region citation-manager={"citations": {"o0rmy": [{"id": "8665703/DF3XHHU4", "source": "zotero"}]}} -->
 
 The Charles S. Peirce Papers (MS Am 1632), housed at Harvard's Houghton Library, represent one of the most extensive archival collections of Peirce's unpublished works. Following Peirce's death in 1914, Harvard University acquired approximately 100,000 manuscript pages from his widow. However, the collection presents several organisational challenges. Richard Robin's Annotated Catalogue of the Papers of Charles S. Peirce (1967) established the current classification system organizing manuscripts by scientific discipline into twelve thematic categories (Mathematics, Pragmatism, Phenomenology, Logic, Metaphysics, Physics, History, Practical Science, Translations, Miscellanea, Biographical, and uncategorized materials). This organization structure does not reflect the chronological development of Peirce's thought, and the concept of "work" remains problematic for manuscripts existing primarily as drafts, revisions, and exploratory writings (<cite id="o0rmy"><a href="#zotero%7C8665703%2FDF3XHHU4">(Keeler, 2020)</a></cite>).
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"g3lab": [], "g3lub": []}} -->
+<!-- #region citation-manager={"citations": {"g3lab": [{"id": "8665703/DEMKHEXR", "source": "zotero"}], "g3lub": [{"id": "8665703/DEMKHEXR", "source": "zotero"}]}} -->
 
 Moreover, the collection exhibits extreme material heterogeneity. Manuscripts span from the mid-19th century to the early 20th century and employ all types of ink, colored pencil, and graphite on diverse paper stocks such as single sheets, bound composition notebooks, and occasional printed journals (Keeler 2020). Physical conditions also vary considerably. The archive contains text enclosed in graphical figures, graphics embedded in text, text contoured around graphics, whole pages of graphics with no text, and graphical figures employing as many as four colors to make critical logical distinctions (<cite id="g3lub"><a href="#zotero%7C8665703%2FDEMKHEXR">(Keeler, 2020)</a></cite>). This multimodality reflects Peirce's increasing difficulty constraining his mature philosophical thought within conventional textual formats (<cite id="g3lab"><a href="#zotero%7C8665703%2FDEMKHEXR">(Keeler, 2020)</a></cite>).
 
@@ -407,7 +407,7 @@ YOLOv8m was fine-tuned from COCO-pretrained weights for 50 epochs (batch size 16
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"mcpj5": []}} -->
+<!-- #region citation-manager={"citations": {"mcpj5": [{"id": "8665703/FD4BNSAK", "source": "zotero"}]}} -->
 
 Detection outputs are transformed into a International Image Interoperability Framework (IIIF) annotation using the Web Annotation Data Model (WADM). Each detected bounding box generates an annotation instance linking a specific canvas region (target) to a semantic class label (body). Coordinates are expressed using the xywh fragment selector specifying pixel offsets and dimensions relative to the IIIF Canvas coordinate system, enabling precise anchoring of detected elements within full-resolution manuscript images.
 To enhance semantic expressiveness, we employ the Multi-Level Annotation Ontology (<cite id="mcpj5"><a href="#zotero%7C8665703%2FFD4BNSAK">(Pedretti et al., 2024)</a></cite>), an extension of WADM that introduces a class to separate the annotated physical region from its conceptual referent. Each anchor is linked to the IIIF URI of the full manuscript page, enabling shared conceptual references across multiple regions. This approach aims to transform the IIIF Manifest into a unified editorial model. Diagram annotations serve as attachment points for captions, interpretative metadata, and paradata documenting the computational workflow. Researchers can progressively enrich the Manifest with transcriptions, translations, scholarly commentary, and cross-references to external resources without modifying the underlying image files.
@@ -580,7 +580,7 @@ plt.show()
 
 ### Semiotic Evaluation Framework for VLMs
 
-<!-- #region citation-manager={"citations": {"it6e5": []}} -->
+<!-- #region citation-manager={"citations": {"it6e5": [{"id": "8665703/6UUZE5P5", "source": "zotero"}]}} -->
 
 Having established the corpus characteristics and distribution patterns, the next question concerns the creation of a framework designed to address the complexities of these diagrams.
 Standard metrics like CER, WER, and CLIPScore (<cite id="it6e5"><a href="#zotero%7C8665703%2F6UUZE5P5">(Hessel et al., 2021)</a></cite>) measure surface-level textual similarity. They fail to capture semantic correctness, particularly when valid descriptions vary in phrasing. Instead, Peirce's Existential Graphs present unique challenges because they require the simultaneous processing of visual elements, spatial relationships, and logical semantics.
@@ -1036,9 +1036,9 @@ plt.show()
 
 ### Error Analysis
 
-<!-- #region citation-manager={"citations": {"bor1": []}} editable=true slideshow={"slide_type": ""} -->
+<!-- #region citation-manager={"citations": {"bor1": [{"id": "8665703/8NFDSZDB", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
-The analysis identified four main types of systematic errors (<cite id="bor1"><a href="#zotero%7C8665703%2F8NFDSZDB">(Roberts, 1973, 39-40)</a></cite>):
+The analysis identified four main types of systematic errors (<cite id="bor1"><a href="#zotero%7C8665703%2F8NFDSZDB">(Roberts, 1973)</a></cite>, 39-40):
 
 1.  **Quantifier Inversion:** Models often confused "some" and "every" by ignoring the depth of the cuts. Under Peirce's rules, even nesting depths (0, 2...) indicate existence, while odd depths (1, 3...) indicate universality. Models like Gemma and Qwen consistently ignored this, turning existential claims ("Some man is not wounded") into universal negations ("No man is wounded").
 2.  **Scope:** Models struggled with the order of nested quantifiers. For example, "Some woman is adored by every Catholic" ($\exists y \forall x$) was often misread as "Every Catholic adores some woman" ($\forall x \exists y$). They failed to see that a line starting outside all cuts fixes the specific subject before the universal claim applies.
@@ -1083,7 +1083,7 @@ The analysis identified reflexive predicates as the hardest structure to process
 
 A central finding of our evaluation is that providing explicit instructions about Peirce's notational conventions does not substantially improve representational interpretation. Our prompt included detailed explanations, nonetheless models equipped with these instructions still failed at applying them consistently. This failure points to what we can define as _endoporeutic gap_, or the distance between knowing a rule declaratively and executing it procedurally on a visual input.
 
-<!-- #region citation-manager={"citations": {"fsemc": []}} -->
+<!-- #region citation-manager={"citations": {"fsemc": [{"id": "8665703/SVGQE8AK", "source": "zotero"}]}} -->
 
 The endoporeutic method, Peirce's prescribed reading procedure for Existential Graphs, requires interpreting from outside to inside (<cite id="fsemc"><a href="#zotero%7C8665703%2FSVGQE8AK">(Roberts, 1973)</a></cite>). The reader must first identify all lines of identity, then determine for each line its outermost position (the least enclosed point), count the number of cuts enclosing that outermost point, assign a quantifier based on parity (even yields existential, odd yields universal), and finally read the enclosed predicates in sequence from outer to inner regions. Each step depends on the previous one, and errors compound.
 
@@ -1119,7 +1119,7 @@ The "endoporeutic gap" is therefore presented as a valuable heuristic for articu
 
 ## Conclusions
 
-<!-- #region citation-manager={"citations": {"5e74d": []}} -->
+<!-- #region citation-manager={"citations": {"5e74d": [{"id": "8665703/T7JKUZHZ", "source": "zotero"}]}} -->
 
 This study presents a modular pipeline for analyzing heterogeneous manuscript collections, combining layout classification, object detection, and semantic annotation, while evaluating five Vision-Language Models on their capacity to interpret Charles S. Peirce's Existential Graphs, employing a semiotic framework that decomposes interpretation into morphological, relational, and representational levels. Results confirm strong visual recognition but poor logical interpretation, exposing an important limitation in current VLMs.
 The evaluation framework itself constitutes a methodological contribution. By operationalising Peirce's semiotic categories as distinct evaluation tasks, we produced empirical data about where interpretation breaks down rather than a single aggregate score. This approach can also be generalised beyond the specific case of Peirce's diagrams to other formal notation systems in historical archives: musical scores, architectural plans, mathematical notations, and so on. For each, the morphological-relational-representational decomposition can identify which interpretive tasks are automatable and which require human-in-the-loop assistance.
@@ -1132,9 +1132,11 @@ Future work could extend this framework in several directions. Comparative evalu
 
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["hidden"] -->
 ## Bibliography
+<!-- #endregion -->
 
-<!-- #region editable=true slideshow={"slide_type": ""} -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["hidden"] -->
 <!-- BIBLIOGRAPHY START -->
 <div class="csl-bib-body">
   <div class="csl-entry"><i id="zotero|8665703/LA3K9MAK"></i>Aouinti, F., Eyharabide, V., Fresquet, X., &#38; Billiet, F. (2022). Illumination Detection in IIIF Medieval Manuscripts Using Deep Learning. <i>Digital Medievalist</i>, <i>15</i>(1), 1–18. <a href="https://doi.org/10.16995/dm.8073">https://doi.org/10.16995/dm.8073</a></div>
