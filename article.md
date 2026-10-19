@@ -78,7 +78,7 @@ An earlier version of this work was presented as a short paper in (<cite id="wfq
 Visual Language Models, Diagrams, IIIF, Semantic Web, Semiotics
 <!-- #endregion -->
 
-<!-- #region tags=["abstract"] -->
+<!-- #region editable=true slideshow={"slide_type": ""} tags=["abstract"] -->
 Diagrams are crucial artifacts in many disciplines, demonstrating the close connection between visual representation and scholarly reasoning. However, their iconic form poses obstacles to visual studies, intermedial analysis, and text-based digital workflows. Charles S. Peirce consistently advocated the use of diagrams as essential tools for reasoning, calling his Existential Graphs "moving pictures of thought." His manuscripts, combining textual content with complex logical notation, provide a challenging case for studying documents involving heterogeneous materials.
 In this study, we investigate whether Vision-Language Models can effectively identify and interpret such hybrid pages. We propose a computational pipeline that processes manuscript pages from Peirce's archive at Harvard's Houghton Library, combining layout segmentation, IIIF-compliant annotation, and VLM-based interpretation. To evaluate interpretation capabilities, we develop a tripartite semiotic evaluation framework grounded in Peirce's own categories: morphological (element enumeration), relational (spatial relationships), and representational (logical reading).
 Our results reveal a gap between visual recognition and logical reasoning. While models perform competently at recognizing visual elements and parsing spatial relations, symbolic interpretation fails consistently, with systematic errors in quantifier scope, negation placement, and conditional structures. We use these findings to support the theoretical distinction between iconization (pattern recognition) and referentialisation (rule-governed interpretation). We conclude by discussing implications for AI-assisted historical research and proposing guidelines for human-machine collaboration in manuscript analysis.
@@ -100,7 +100,7 @@ The growing availability of digitized cultural heritage collections has driven i
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"3ysim": [{"id": "8665703/LYFI8U6T", "source": "zotero"}], "bzqd2": [{"id": "8665703/FW3ARBMD", "source": "zotero"}], "ceit9": [{"id": "8665703/AUYQ24AE", "source": "zotero"}], "cretg": [{"id": "8665703/DF3XHHU4", "source": "zotero"}], "t3aki": [{"id": "8665703/DEMKHEXR", "source": "zotero"}], "y95c8": [{"id": "8665703/QHRMP9QG", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"3ysim": [{"id": "8665703/LYFI8U6T", "source": "zotero"}], "bzqd2": [{"id": "8665703/FW3ARBMD", "source": "zotero"}], "ceit9": [{"id": "8665703/AUYQ24AE", "source": "zotero"}], "cretg": [{"id": "8665703/DF3XHHU4", "source": "zotero"}], "t3aki": [{"id": "8665703/DEMKHEXR", "source": "zotero"}], "y95c8": [{"id": "8665703/QHRMP9QG", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 Among the most prominent theorists of diagrammatic reasoning is Charles S. Peirce, who conceived of diagrams as a subtype of icon capable of representing and manipulating the relational underpinning of objects through visual means (<cite id="y95c8"><a href="#zotero%7C8665703%2FQHRMP9QG">(Stjernfelt 2000)</a></cite>, <cite id="3ysim"><a href="#zotero%7C8665703%2FLYFI8U6T">(Waal 2013)</a></cite>, <cite id="ceit9"><a href="#zotero%7C8665703%2FAUYQ24AE">(Zellweger 1991)</a></cite>, <cite id="bzqd2"><a href="#zotero%7C8665703%2FFW3ARBMD">(Leja 2000)</a></cite>). In his unpublished manuscripts, diagrams such as the Existential Graphs illustrate logical inferences via spatial configurations, offering a visual alternative to symbolic logic. Peirce referred to these constructs as “moving pictures of thought” (Collected Papers 4.8), underlining their dynamic and epistemological function, while also claiming that "all necessary reasoning is diagrammatic" (CP 5.162), arguing that any valid logical must be capable of visual representation. This idea finds its embodied expression in Peirce’s manuscripts, where textual content, visual artifacts, and complex layouts are seamlessly integrated (<cite id="cretg"><a href="#zotero%7C8665703%2FDF3XHHU4">(Keeler 2020)</a></cite>). These documents reflect both his theoretical commitment to diagrammatic reasoning and its practical development through a mix of heterogeneous, multimodal writing. However, this visual richness remains largely inaccessible in existing printed editions, which are compiled under the editorial constraints (<cite id="t3aki"><a href="#zotero%7C8665703%2FDEMKHEXR">(Keeler 2020b)</a></cite>) of conventional publishing.
 
@@ -112,7 +112,9 @@ Recent work in visual semiotics, particularly the distinction between iconisatio
 
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 This study addresses these challenges by developing a structured evaluation methodology grounded in Peircean semiotics. We operationalize Peirce's triadic framework into three analytical levels that probe progressively deeper aspects of diagram comprehension: morphological questions target the recognition of basic visual elements, relational questions examine the capacity to identify structural relationships between elements, and representational questions assess the ability to reconstruct the logical operations encoded in diagrammatic configurations. By systematically testing multiple VLMs across these levels on Peirce's Existential Graphs, we can map the boundary between iconisation and referentialisation in machine vision. This approach reveals where pattern recognition ends and where genuine diagrammatic reasoning begins, providing empirical grounding for theoretical claims about the epistemological limits of computational interpretation in historical contexts.
+<!-- #endregion -->
 
 <!-- #region citation-manager={"citations": {"7z6s4": [{"id": "8665703/S2A35A49", "source": "zotero"}]}} -->
 
@@ -263,14 +265,14 @@ This framework presents a challenge for computational hermeneutics. If reasoning
 
 ### Vision-Language Models and Visual Comprehension: Two Analytical Axes
 
-<!-- #region citation-manager={"citations": {"djueh": [{"id": "8665703/3EUQWJ9", "source": "zotero"}], "htycw": [{"id": "8665703/NNUL5MJR", "source": "zotero"}], "ms0zd": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"djueh": [{"id": "8665703/3EUQWJ9V", "source": "zotero"}], "htycw": [{"id": "8665703/NNUL5MJR", "source": "zotero"}], "ms0zd": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 The integration of computer vision and language models has opened new possibilities for automated image interpretation. Vision-Language Models demonstrate competence in describing visual content, generating captions, and answering questions about images. Applications in cultural heritage contexts have shown promising results for tasks like iconographic classification and visual link retrieval (<cite id="ms0zd"><a href="#zotero%7C8665703%2FZ3KJLP7C">(Cetinic, 2021)</a></cite>, <cite id="htycw"><a href="#zotero%7C8665703%2FNNUL5MJR">(Garcia &#38; Vogiatzis, 2019)</a></cite>). These successes suggest potential for extracting structured knowledge from complex visual materials.
 However, recent work reveals systematic limitations in how VLMs process visual information. While multimodal models can identify surface-level elements, they struggle to understand logical or spatial relationships among those elements (<cite id="djueh"><a href="#zotero%7C8665703%2F3EUQWJ9V">(Hou et al., 2024)</a></cite>). Evaluation studies show that VLMs tend to rely on background knowledge instead of analyzing the internal structure of images. In particular, when confronted with diagrams in scientific papers, models often recognize individual components (circles, lines, text) without grasping how those components relate to form meaningful structures.
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"vbd3i": [{"id": "8665703/WCRB65J9", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"vbd3i": [{"id": "8665703/WCRB65J9", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 Moreover, VLMs frequently hallucinate relationships or rely on interpretations drawn from training data. Chain-of-regions approaches attempt to address this by decomposing diagrams into meaningful areas before interpretation, improving spatial reasoning capabilities (<cite id="vbd3i"><a href="#zotero%7C8665703%2FWCRB65J9">(Kamoi et al., 2024)</a></cite>). Similarly, structured prompting strategies have shown some success in guiding models toward more accurate diagram interpretation, particularly when combined with modular reasoning pipelines. Nevertheless, performance remains inconsistent across different diagram types and complexity levels.
 
@@ -309,11 +311,13 @@ Moreover, the collection exhibits extreme material heterogeneity. Manuscripts sp
 
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 ### Corpus Analysis
 
-A subset of 233 items from this collection has been digitized and made available through IIIF Manifests via the Harvard Hollis system, yielding 15,695 high-resolution facsimile images. To prepare this corpus for computational processing, we retrieved IIIF metadata for each digitized item, including canvas structure, image URIs, and classification labels derived from Robin's catalogue. All canvases were downloaded at full resolution and organized into thematic folders. Blank pages, identified using IIIF metadata, were automatically excluded, resulting in 15,682 manuscript pages available for analysis. All the scripts used for the pipeline are available at [Github](https://github.com/friendlynihilist/PIP-Manuscripts-Processor){:target="\_blank"}.
+A subset of 233 items from this collection has been digitized and made available through IIIF Manifests via the Harvard Hollis system, yielding 15,695 high-resolution facsimile images. To prepare this corpus for computational processing, we retrieved IIIF metadata for each digitized item, including canvas structure, image URIs, and classification labels derived from Robin's catalogue. All canvases were downloaded at full resolution and organized into thematic folders. Blank pages, identified using IIIF metadata, were automatically excluded, resulting in 15,682 manuscript pages available for analysis. All the scripts used for the pipeline are available at [Github](https://github.com/friendlynihilist/PIP-Manuscripts-Processor).
 
 #### Page-Level Classification
+<!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -407,7 +411,7 @@ YOLOv8m was fine-tuned from COCO-pretrained weights for 50 epochs (batch size 16
 
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"mcpj5": [{"id": "8665703/FD4BNSAK", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"mcpj5": [{"id": "8665703/FD4BNSAK", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 Detection outputs are transformed into a International Image Interoperability Framework (IIIF) annotation using the Web Annotation Data Model (WADM). Each detected bounding box generates an annotation instance linking a specific canvas region (target) to a semantic class label (body). Coordinates are expressed using the xywh fragment selector specifying pixel offsets and dimensions relative to the IIIF Canvas coordinate system, enabling precise anchoring of detected elements within full-resolution manuscript images.
 To enhance semantic expressiveness, we employ the Multi-Level Annotation Ontology (<cite id="mcpj5"><a href="#zotero%7C8665703%2FFD4BNSAK">(Pedretti et al., 2024)</a></cite>), an extension of WADM that introduces a class to separate the annotated physical region from its conceptual referent. Each anchor is linked to the IIIF URI of the full manuscript page, enabling shared conceptual references across multiple regions. This approach aims to transform the IIIF Manifest into a unified editorial model. Diagram annotations serve as attachment points for captions, interpretative metadata, and paradata documenting the computational workflow. Researchers can progressively enrich the Manifest with transcriptions, translations, scholarly commentary, and cross-references to external resources without modifying the underlying image files.
@@ -691,13 +695,15 @@ Class-level analysis demonstrates balanced recognition across categories:
 - _Visual Elements Mixed_ pages showed the inverse pattern, prioritizing recall (0.9496) over precision (0.9040). This indicates successful identification of visual content, though complex textual layouts were occasionally misclassified as diagrams.
 <!-- #endregion -->
 
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 The confusion matrix aggregated across all folds provides granular error analysis. All 28 Cover pages across validation folds were correctly classified with zero confusion. Among 117 Text pages, 105 were correctly classified while 12 were misidentified as _Visual Elements Mixed_, representing 10.26% false positive rate for visual content detection. Among 119 _Visual Elements Mixed_ pages, 113 were correctly classified while 6 were misidentified as Text, representing 5.04% false negative rate. These error patterns suggest the model occasionally struggles with borderline cases: densely annotated text pages with marginal sketches may lack sufficient visual mass for reliable detection, while heavily marked text pages with underlines, brackets, or systematic notation may exhibit visual complexity resembling diagrammatic content.
 
 CLIP's contrastive training learns visual features that correspond to natural language concepts, enabling the model to recognize abstract categorical distinctions like "page containing diagram" versus "page containing only text" that align with human judgments. Traditional CNN features, while effective for object recognition tasks, encode visual patterns optimized for ImageNet classification rather than document layout analysis. HOG features capture only low-level edge structure without semantic abstraction. The Logistic Regression classifier's effectiveness with CLIP embeddings likely reflects the linearly separable nature of the embedding space.
 
-The trained CLIP-based classification model was applied to the complete digitised corpus to identify pages containing visual elements. Pages identified as _Visual Elements Mixed_ are forwarded to layout segmentation, while text-only pages are excluded. As previously stated, the term "visual" here encompasses a broad range of visual elements: mostly Existential Graphs (proper diagrams in the habitual sense), geometric figures, mathematical notation, symbolic logic notation, sketches and tree structures. Classification identified 1,519 pages containing diagrams (9.7% of total corpus), with the remaining 14,163 pages containing text only or cover materials, establishing the empirical dataset used to analyze distribution patterns across thematic categories. The entire dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.18135694){:target="\_blank"}.
+The trained CLIP-based classification model was applied to the complete digitised corpus to identify pages containing visual elements. Pages identified as _Visual Elements Mixed_ are forwarded to layout segmentation, while text-only pages are excluded. As previously stated, the term "visual" here encompasses a broad range of visual elements: mostly Existential Graphs (proper diagrams in the habitual sense), geometric figures, mathematical notation, symbolic logic notation, sketches and tree structures. Classification identified 1,519 pages containing diagrams (9.7% of total corpus), with the remaining 14,163 pages containing text only or cover materials, establishing the empirical dataset used to analyze distribution patterns across thematic categories. The entire dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.18135694).
 
 #### Layout Segmentation Results
+<!-- #endregion -->
 
 <!-- #region editable=true slideshow={"slide_type": ""} -->
 
@@ -1119,7 +1125,7 @@ The "endoporeutic gap" is therefore presented as a valuable heuristic for articu
 
 ## Conclusions
 
-<!-- #region citation-manager={"citations": {"5e74d": [{"id": "8665703/T7JKUZHZ", "source": "zotero"}]}} -->
+<!-- #region citation-manager={"citations": {"5e74d": [{"id": "8665703/T7JKUZHZ", "source": "zotero"}]}} editable=true slideshow={"slide_type": ""} -->
 
 This study presents a modular pipeline for analyzing heterogeneous manuscript collections, combining layout classification, object detection, and semantic annotation, while evaluating five Vision-Language Models on their capacity to interpret Charles S. Peirce's Existential Graphs, employing a semiotic framework that decomposes interpretation into morphological, relational, and representational levels. Results confirm strong visual recognition but poor logical interpretation, exposing an important limitation in current VLMs.
 The evaluation framework itself constitutes a methodological contribution. By operationalising Peirce's semiotic categories as distinct evaluation tasks, we produced empirical data about where interpretation breaks down rather than a single aggregate score. This approach can also be generalised beyond the specific case of Peirce's diagrams to other formal notation systems in historical archives: musical scores, architectural plans, mathematical notations, and so on. For each, the morphological-relational-representational decomposition can identify which interpretive tasks are automatable and which require human-in-the-loop assistance.
