@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.19.5
+      jupytext_version: 1.19.6
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -88,7 +88,7 @@ Our results reveal a gap between visual recognition and logical reasoning. While
 ## Introduction
 <!-- #endregion -->
 
-<!-- #region citation-manager={"citations": {"2dptf": [], "5m66e": [], "a90xg": [], "esp8a": [], "tmfkf": [], "tmqkg": [], "w2x0i": []}} -->
+<!-- #region citation-manager={"citations": {"2dptf": [{"id": "8665703/N7DJDWUA", "source": "zotero"}], "5m66e": [{"id": "8665703/Z3KJLP7C", "source": "zotero"}], "a90xg": [{"id": "8665703/YQYQTRUY", "source": "zotero"}], "esp8a": [{"id": "8665703/WHMSYHGX", "source": "zotero"}], "tmfkf": [{"id": "8665703/LT84I8VT", "source": "zotero"}], "tmqkg": [{"id": "8665703/QA5B8DTV", "source": "zotero"}], "w2x0i": [{"id": "8665703/NNUL5MJR", "source": "zotero"}]}} -->
 
 Diagrams play a central role in many forms of reasoning, from mathematics to philosophy and religious art and have long served as fundamental tools for visual reasoning across scientific disciplines (<cite id="tmfkf"><a href="#zotero%7C8665703%2FLT84I8VT">(Feil 2024)</a></cite>, <cite id="tmqkg"><a href="#zotero%7C8665703%2FQA5B8DTV">(Hamburger 2019)</a></cite>, <cite id="esp8a"><a href="#zotero%7C8665703%2FWHMSYHGX">(Latour 1990)</a></cite>, <cite id="a90xg"><a href="#zotero%7C8665703%2FYQYQTRUY">(Rodighiero et al. 2023)</a></cite>). They function as active instruments for discovery, enabling forms of knowledge production distinct from purely symbolic expression. Recent advances in computer vision and multimodal learning have opened new opportunities to engage computationally with historical visual materials. Machine learning techniques have shown considerable success in art historical contexts, from iconographic classification (<cite id="5m66e"><a href="#zotero%7C8665703%2FZ3KJLP7C">(Cetinic, 2021)</a></cite>) to visual link retrieval (<cite id="w2x0i"><a href="#zotero%7C8665703%2FNNUL5MJR">(Garcia & Vogiatzis, 2019)</a></cite>), and in addressing technical challenges like handwritten text recognition in complex documents (<cite id="2dptf"><a href="#zotero%7C8665703%2FN7DJDWUA">(Fleischhacker et al., 2025)</a></cite>). However, the specific problem of automated interpretation of diagrams that encode logical and relational structures has received comparatively limited attention.
 
